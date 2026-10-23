@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .button2 {
+            margin: 0;
+            margin-right: 30px;
+            margin-top: 2px;
+            background: #4a90e2;
+            border: none;
+            color: white;   
+            padding: 10px 16px; 
+            font-size: 14px;    
+            border-radius: 6px; 
+            cursor: pointer;    
+            width: 120px;   
+            height: 40px;   
+
+        }
+        
+        p2, p3, p4, p5, p6, p7 {
+            display: block;
+        }
+        
+        
+    </style>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-container">
+        <h1>Plan and Design</h1>
+        <a href="index.html"><button class="button2">Home</button></a>
+    </div>
+    <p1>My project is an embedded system for wildfire risk monitoring in forests. It will use external data from the environment to calculate the height of fire risk and depending on it determine if there is a risk or not. It will be useful for quickly reacting to wildfire to avoid the spread of this problem. The system will use BBC Micro:bit board as the main process. It has two inbuilt sensors, light and temperature sensor, they will determine the future fire risk value, high or low. The inbuilt analogue light sensor has values 0-255 the higher the value the greater chance of a wildfire, it will be placed near the trees to have the most accurate result. The inbuilt digital temperature sensor has values 0-50 and will be placed near the light sensor. The output will be the Fire risk which is calculated by formula (temperature*light) the higher the value of fire risk the more chance of starting the wildfire. If level of light is 150 and temperature is 25°C then it is high level of fire risk on the 5x5 LED matrix will be shown happy face to understand what level of fire risk is it now, it can be either low, medium high and very high levels of fire risk with happy, straight, sad faces and skull respectively. This model directly describes the logic: if there is a big temperature then there is dryer soil and wood and trees can be caught on fire much easier.
+    </p1>
+    <br>
+    <br>
+    <p2>I chose  microbit as the main controller due to ease of using it, it has two inbuilt sensors which is totally enough for my project. Coding by placing and connecting blocks is intuitive, clear and easy, you can place it whatever you want and this is so convenient.
+    </p2>
+    <br>
+    <br>
+    <br>
+    <p3>
+        •BR 1- Microbit is analyzing light and temperature data and adding them to the console.
+    </p3>
+    <br>
+    <p4>
+        •BR 2- Adding a database as the CSV file to store all the data from sensors.
+    </p4>
+    <br>
+    <p5>
+        •BR 3- Adding an ability of quick messaging with 5x5 LED matrix depending on the fire risk value
+    </p5>
+    <br>
+    <p6>
+        •AR 1- Adding a formula to calculate the value of fire risk which will take part in all alerts.
+    </p6>
+    <br>
+    <p7>
+        •AR 2- Adding 2 scenarios (low temp thin canopy and high temp thick canopy) where we can check what will be in the certain situation.
+    </p7>
+    <br>
+    <p8>
+        •AR 3- Adding the feedback system to check the correctness of alerts
+    </p8>
+    <br>
+    <br>
+    <p9>
+        End users: Forest rangers and protectors, firefighters, authorities all of them can use this system to quickly react to a wildfire.
+    </p9>
+    <br>
+    <p10>
+        Stakeholders: The local councils, environmental agencies and forestry commissions
+    </p10>
+    <br>
+    <br>
+    <br>
+    <p11>
+        My main controller is Micro:bit V2 with inbuilt temperature and light sensor, 5x5 LED matrix and intuitive interface. The USB interface is used for serial data communication, thereby allowing data to be logged. I also used Python to create the final code to process the data coming from the microbit.
+    </p11>
+
+</body>
+</html>

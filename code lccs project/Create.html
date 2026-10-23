@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+            margin-bottom: 20px;
+        }
+        
+        h1 {
+            margin: 0;
+        }
+        
+        .button2 {
+            margin: 0;
+            margin-right: 30px;
+            margin-top: 2px;
+            background: #4a90e2;
+            border: none;
+            color: white;   
+            padding: 10px 16px; 
+            font-size: 14px;    
+            border-radius: 6px; 
+            cursor: pointer;    
+            width: 120px;   
+            height: 40px;   
+
+        }
+        
+        p2, p3, p4, p5, p6, p7 {
+            display: block;
+        }
+        
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin: 20px 0;
+        }
+        
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: center;
+        }
+        
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        
+        tr:hover {
+            background-color: #e9e9e9;
+        }
+    </style>
+        
+    </style>
+    <link href="style.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header-container">
+        <h1>Create</h1>
+        <a href="index.html"><button class="button2">Home</button></a>
+    </div>
+
+    <h2>Пуста таблиця 2x9</h2>
+    
+    <table>
+        <tr>
+            <td>Week 1 & Week 2 (Dec)</td>
+            <td>I have read all the information about the project.
+                Started making the Investigation section.
+                Started making the Plan and Design section.
+</td>
+        </tr>
+        <tr>
+            <td>Week 3 (Dec)</td>
+            <td>Finished making the Investigation part.
+                Finished making the Plan and Design section.
+                Started making the Basic Requirements 1,2,3. 
+                Finished doing the Basic Requirement 1.
+</td>
+        </tr>
+        <tr>
+            <td>Week 4 & Week 5 (Jan)</td>
+            <td>Doing the Basic Requirements 1,2,3.
+Finished doing the  Basic Requirement 2.
+Preparing to mock exams.
+</td>
+        </tr>
+        <tr>
+            <td>Week 6 & Week 7 (Jan)</td>
+            <td>Finished doing the Basic Requirement 3.
+Finished Basic the Requirements 1,2,3.
+Started making the Advanced Requirements 1,2,3.
+Mock exams.
+</td>
+        </tr>
+        <tr>
+            <td>Week 8</td>
+            <td>Mock exams.
+Finished making the Advanced Requirement 1.
+</td>
+        </tr>
+        <tr>
+            <td>Week 9</td>
+            <td>Finished making the Advanced Requirement 2.
+Finished making the Advanced Requirement 3.
+Finished making the Advanced Requirements 1,2,3.
+</td>
+        </tr>
+        <tr>
+            <td>Week 10</td>
+            <td>Started making an Evaluation section.
+Finished making an Evaluation section.
+</td>
+        </tr>
+        <tr>
+            <td>Week 11</td>
+            <td>Recorded all the required videos.</td>
+        </tr>
+        <tr>
+            <td>Week 12</td>
+            <td>Prepared all the required files and videos.</td>
+        </tr>
+    </table>
+    <h2>Tests</h2>   
+    <table>
+        <thead>
+            <tr>
+                <th>Test No</th>
+                <th>Test Data</th>
+                <th>Reason for Test</th>
+                <th>Expected Outcome</th>
+                <th>Actual Outcome</th>
+                <th>Pass/Fail</th>
+                <th>Outcome of Testing</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>14.12.2025</td>
+                <td>Checking the correctness of the BR1 operation.</td>
+                <td>At the output table there has to be the data about temperature</td>
+                <td>All worked as expected</td>
+                <td>Pass</td>
+                <td>BR1 micro bit code worked correctly</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>10.01.2026</td>
+                <td>Checking the correctness of the BR2 operation.</td>
+                <td>After running a code output has to show all the correct data</td>
+                <td>Code worked as expected</td>
+                <td>Pass</td>
+                <td>BR2 python code worked correctly</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>20.01.2026</td>
+                <td>Checking the correctness of the BR3 operation.</td>
+                <td>At the output table there has to be the data about light level, fire risk and canopy</td>
+                <td>All worked as expected</td>
+                <td>Pass</td>
+                <td>BR3 micro bit code worked correctly</td>
+            </tr>
+                <td>4</td>
+                <td>1.02.2026</td>
+                <td>Checking the correctness of the AR1 operation.</td>
+                <td>The code has to the wildfire risk with given data</td>
+                <td>Code worked as expected</td>
+                <td>Pass</td>
+                <td>All worked correctly</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>04.02.2026</td>
+                <td>Checking the correctness of the AR2 operation.</td>
+                <td>The code has to count fire risk by 2 scenarios</td>
+                <td>Code worked as expected</td>
+                <td>Pass</td>
+                <td>All worked correctly</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>07.02.2026</td>
+                <td>Checking the correctness of the AR3 operation.</td>
+                <td>The code has to determine if there is a risk of a wildfire using the information from sensors</td>
+                <td>Code worked as expected</td>
+                <td>Pass</td>
+                <td>All worked correctly</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+    <br>
+    <p>I have faced the problem with AR2 that in both scenarios there were identical result values, i fixed it by adding separate variables in the formula.</p>
+    <br>
+    <p1>Before:</p1>
+    <br>
+    <a href="Знімок екрана 2026-03-11 225901.png" target="_blank">
+        <img src="Знімок екрана 2026-03-11 225901.png" alt="Scenario results" width="400">
+    </a>
+    <br>
+    <br>
+    <p2>After:</p2
+        <br>
+    <a href="Знімок екрана 2026-03-11 230350.png" target="_blank">
+        <img src="Знімок екрана 2026-03-11 230350.png" alt="Scenario results" width="400">
+        </a>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p3>---------------------------------------------------------------------------</p3>
+    <a href="Знімок екрана 2026-03-13 002212.png" target="_blank">
+        <img src="Знімок екрана 2026-03-13 002212.png" alt="Scenario results" width="400">
+    </a>
+    <br>
+    <p4>
+    Description of the model:
+    It has two internal sensors, light and temperature with corresponding output data. BR3_Sim_Result is fire risk which can be calculated with formula temperature*light_level. All of this data can be downloaded into the CSV file from my python code.
+    </p4>
+        <br>
+        <br>
+        <br>
+        <br>
+        <a href="Знімок екрана 2026-03-13 001958.png" target="_blank">
+            <img src="Знімок екрана 2026-03-13 001958.png" alt="Scenario results" width="400">
+        </a>
+        <br>
+        <p5>
+            This is my full Microbit code. The code to the right has thresholds to alert if there is high fire risk and showing on the 5x5 LED matrix face depending on the fire risk. Another code to the left writes data on the console and can be downloaded to the CSV file. Also my python code (AR2 and AR3) was based on these thresholds.
+        </p5>
+    </body>
+    </html>

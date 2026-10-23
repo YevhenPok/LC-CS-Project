@@ -1,0 +1,35 @@
+.myStyle{
+    font-family: serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-color: #0b39b8;
+    
+}
+
+    .button {
+        border: none;
+        color: white; 
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font: serif;
+        font-size: 16px;
+        margin: 20px ;
+        cursor: pointer;
+        border-radius: 10px 10px 10px 10px;
+        width: 250px;
+        height: 100px;
+}
+.button1 {background-color: #3d3936;}
+.myStyle{
+    font-family: serif;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: #af3150;
+    border-width: 10px;
+    padding: 10px;
+    border-radius: 60px 60px 60px 60px;
+    background-color: #bd174e;
+}
