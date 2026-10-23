@@ -1,7 +1,5 @@
 # README
 This is my school project from computer scince for leaving certificate. It is used to early detect wildfires with microbits using temperature and light levels.
-# Interactive Particle Animation
-
 I will provide videos of functionality of this code
 
 ## What it does
